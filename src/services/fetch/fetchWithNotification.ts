@@ -12,7 +12,7 @@ export async function fetchWithNotification<T>(
   try {
     const { showSuccessNotification = true } = options;
     const response = await fetch(input, init);
-
+    console.log(response)
     switch (response.status) {
       case 200: {
         if (showSuccessNotification) {
