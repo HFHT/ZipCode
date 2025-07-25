@@ -23,7 +23,7 @@ const ZipCodeEntry = () => {
         };
         setIsBusy(true)
         const res: any = await fetchWithNotification(
-            `${import.meta.env.VITE_SCHEDULER_URL}/api/putZipCode`, optionsDesc
+            `${import.meta.env.VITE_SCHEDULER_URL}putZipCode`, optionsDesc
         );
         console.log(res)
         // alert(`Saved Zip Code: ${zipCode}`);
