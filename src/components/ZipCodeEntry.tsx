@@ -1,6 +1,6 @@
 
-import { useMemo, useState } from 'react';
-import { Button, Container, Grid, Text, TextInput, Space, LoadingOverlay, Box, useMantineTheme, rem, Title } from '@mantine/core';
+import { useState } from 'react';
+import { Button, Container, Grid, TextInput, Space, LoadingOverlay, Box, useMantineTheme, Title } from '@mantine/core';
 import { fetchWithNotification } from '../services';
 import { useMediaQuery } from '@mantine/hooks';
 
